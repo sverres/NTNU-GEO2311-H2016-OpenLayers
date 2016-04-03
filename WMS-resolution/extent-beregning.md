@@ -2,7 +2,7 @@
 
 - Spørre tjenesten ved hjelp av GetCapabilities-kall:
 ```
-http`://openwms.statkart.no/skwms1/wms.topo2?request=GetCapabilities&Service=WMS
+http://openwms.statkart.no/skwms1/wms.topo2?request=GetCapabilities&Service=WMS
 ```
 
 - Hente ut koordinater for BoundingBox:
