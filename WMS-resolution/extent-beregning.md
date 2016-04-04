@@ -12,7 +12,7 @@ http://openwms.statkart.no/skwms1/wms.topo2?request=GetCapabilities&Service=WMS
 
 - Skrevet som en javascript-variabel:
 ```javascript
-var extentKartverketWMS32633 = [-127998, 6377920, 1145510, 7976800]
+var extentKartverketWMS32633 = [-127998, 6377920, 1145510, 7976800];
 ```
 
 - Transformert til EUREF89 - UTM32 ved hjelp av funksjoner på http://norgeskart.no
@@ -22,7 +22,7 @@ var extentKartverketWMS32633 = [-127998, 6377920, 1145510, 7976800]
 
 - Avrundet og skrevet som javascript-variabel:
 ```javascript
-extentKartverketWMS25832 = [234068, 6338450, 1351516, 8051673]
+var extentKartverketWMS25832 = [234068, 6338450, 1351516, 8051673];
 ```
 
 - Hvor stort blir dette?
